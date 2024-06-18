@@ -14,6 +14,7 @@ public partial class AstronomicalBodyPage : ContentPage
 
         Title = body.Name;
 
+
         lblIcon.Text = body.EmojiIcon;
         lblName.Text = body.Name;
         lblMass.Text = body.Mass;
